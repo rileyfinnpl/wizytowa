@@ -3,6 +3,12 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+body {
+    background-image: url("https://images.unsplash.com/photo-1516447379291-16bee43e16ca?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=41f3f5a8ce195288a1d3060a4c8a58c0&auto=format&fit=crop&w=1049&q=80");
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+
+}
 ul {
     float: left;
     width: 100%;
@@ -11,42 +17,151 @@ ul {
     list-style: none;
 }
 
-li a {
-    display: block;
-    float: left;
-    text-align: center;
-    font-size: 1.2em;
-    width: 130px;
-    text-decoration: #b3d4fc;
-    color: aqua;
+nav{
     background-color: crimson;
-    padding: 10px 15px;
-    margin: 0px 1px 1px 0px;
-    border: 1px solid navy;
-    border-radius: 3px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    box-shadow: 0px 2px 3px gray;
-    -moz-box-shadow: 0px 2px 3px gray;
-    -webkit-box-shadow: 0px 2px 3px gray;
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    font-family: "Baskerville Old Face";
+    text-align: center;
+
+}
+nav ul{
+    clear: both;
+    margin: 0px;
+}
+nav li {
+
+    display: inline;
+    margin: 5px 15px;
+    padding: 10px;
+
+}
+#navbar .nav-link {
+
+    cursor: default;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #888888;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px #5f5e5e;
+    transition: text-shadow 0.2s;
+
+}
+#navbar .nav-link:hover {
+    cursor: default;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #888888;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 0px 3px 5px #771d04;
+    transition: text-shadow 0.2s;
+}
+.hero{
+     height: 100vh;
+     width: 100%;
+     background: no-repeat fixed center;
+     background-size: cover;
+ }
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    padding: 120px 30px 0;
+}
+.hero-content h1{
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 3em;
+    color: ivory;
+    font-family: "Baskerville Old Face";
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 11px #000;
+    text-transform: uppercase;
+    background: #84756a4f;
+    width: fit-content;
 }
 
-li a:hover {
-    color: blue;
-    background: aqua;
-    border: 1px solid blue;
+.hero-content p{
+    margin-top: 30px;
+    background: #84756a4f;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: justify;
+    font-size: 2em;
+    font-family: "Baskerville Old Face";
+    color: ivory;
 }
+.klasa {
+    height: 100vh;
+    width: auto;
+    background: no-repeat fixed center;
+    background-size: cover;
+}
+
+.klasa-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    max-width: 600px;
+    padding: 120px 30px 0;
+}
+.klasa-content h1{
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-size: 3em;
+    color: ivory;
+    font-family: "Baskerville Old Face";
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 11px #000;
+    text-transform: uppercase;
+    background: #84756a4f;
+    width: fit-content;
+}
+
+.klasa-content p{
+    margin-top: 30px;
+    background: #84756a4f;
+    width: fit-content;
+    padding: 5px 10px;
+    text-align: justify;
+    font-size: 2em;
+    font-family: "Baskerville Old Face";
+    color: ivory;
+}
+
 footer{
     padding: 5px 20px;
     color: #888888;
     background: crimson;
     text-align: center;
+    position: relative;
+    bottom: 0;
+    width:100%;
+    height: 30px;
+    font-size: small;
+    font-weight: 700;
+    font-family: "Baskerville Old Face";
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px #5f5e5e;
+    transition: text-shadow 0.2s;
+    cursor: default;
+
 }
 
 footer p{
     padding: 0;
     margin: 0;
 }
+#
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
